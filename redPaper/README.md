@@ -1,21 +1,23 @@
 # redpaper
 
-> A Vue.js project
+> 微信领取红包项目  
+说明  
+主要涉及的技术为localstorage+Vue+muti-ui  
+通过小票号+消费金额向后台请求获取到红包，并且可以通过微信公众号领取，展示中奖的信息列表
 
 ## Build Setup
 
 ``` bash
-# install dependencies
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 在服务器运行项目
 npm run dev
 
-# build for production with minification
+# 项目打包
 npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
